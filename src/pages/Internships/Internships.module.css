@@ -1,0 +1,23 @@
+.container {
+  background: #fff;
+  padding: 32px 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  min-height: 80vh;
+}
+
+.dropzone {
+  border: 2px dashed #1890ff;
+  border-radius: 8px;
+  background: #fafcff;
+  padding: 32px 0;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 16px;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.dropzoneActive {
+  border-color: #52c41a;
+  background: #e6fffb;
+} 

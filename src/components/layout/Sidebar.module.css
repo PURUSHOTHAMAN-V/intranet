@@ -1,0 +1,35 @@
+.ant-layout-sider {
+  background: var(--white) !important;
+  box-shadow: 2px 0 8px rgba(30,58,138,0.04);
+}
+
+.ant-menu {
+  font-family: var(--font-primary);
+  font-size: var(--text-base);
+  background: var(--white) !important;
+  border-right: none !important;
+}
+
+.ant-menu-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding-left: var(--space-4) !important;
+  padding-right: var(--space-4) !important;
+  height: 48px !important;
+}
+
+.ant-menu-item .anticon {
+  font-size: 20px;
+  color: var(--primary-blue);
+}
+
+.ant-menu-item-selected {
+  background: var(--gray-100) !important;
+  color: var(--primary-blue) !important;
+}
+
+.ant-menu-item:hover {
+  background: var(--gray-50) !important;
+  color: var(--primary-blue) !important;
+} 

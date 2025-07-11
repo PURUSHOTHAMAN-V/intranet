@@ -1,0 +1,75 @@
+@import './variables.css';
+
+body {
+  font-family: var(--font-primary);
+  background: var(--gray-50);
+  color: var(--gray-800);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+body.theme-dark {
+  background: #18181b !important;
+  color: #f3f4f6 !important;
+}
+body.theme-dark .ant-card {
+  background: #23232a !important;
+  color: #f3f4f6 !important;
+}
+body.theme-dark .ant-layout, body.theme-dark .ant-layout-content {
+  background: #18181b !important;
+}
+body.theme-dark .ant-typography, body.theme-dark .ant-tabs-tab {
+  color: #f3f4f6 !important;
+}
+body.theme-dark .ant-input, body.theme-dark .ant-input-affix-wrapper, body.theme-dark .ant-select-selector, body.theme-dark .ant-input-password {
+  background: #23232a !important;
+  color: #f3f4f6 !important;
+  border-color: #333 !important;
+}
+body.theme-dark .ant-btn-primary {
+  background: #1e3a8a !important;
+  border-color: #1e3a8a !important;
+}
+body.theme-dark .ant-switch-checked {
+  background: #6366f1 !important;
+}
+
+body.theme-light {
+  background: #f8fafc !important;
+  color: #18181b !important;
+}
+body.theme-light .ant-card {
+  background: #fff !important;
+  color: #18181b !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  color: var(--primary-blue);
+  margin-bottom: var(--space-4);
+}
+
+a {
+  color: var(--primary-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.ant-btn-primary {
+  background: var(--primary-blue) !important;
+  border-color: var(--primary-blue) !important;
+}
+
+.ant-btn-primary:hover, .ant-btn-primary:focus {
+  background: var(--primary-dark) !important;
+  border-color: var(--primary-dark) !important;
+}
+
+.ant-layout {
+  background: var(--gray-50) !important;
+} 
